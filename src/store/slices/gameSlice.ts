@@ -22,7 +22,7 @@ const initialState: GameState = {
   input: "",
   isGame: false,
   isFinish: false,
-  time: 10,
+  time: 60,
 };
 
 export const gameSlice = createSlice({

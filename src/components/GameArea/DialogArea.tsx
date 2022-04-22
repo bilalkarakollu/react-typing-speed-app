@@ -1,11 +1,9 @@
 import { Dialog, DialogContent } from "../../styled/Dialog.styled"
-import { useAppDispatch, useAppSelector } from "../../store/hooks";
+import { useAppSelector } from "../../store/hooks";
 import { Button, Flex } from "../../styled/Global";
-import { gameReset } from "../../store/slices/gameSlice";
 
 const DialogArea = () => {
-
-  const dispatch = useAppDispatch();
+  
   const { isFinish, completedNumber, wrongNumber } = useAppSelector((state) => state.game);
 
   return (

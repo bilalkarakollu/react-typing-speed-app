@@ -37,7 +37,7 @@ const InputArea = () => {
         clearInterval(interval);
         dispatch(gameFinish());
       }
-  }, [time]);
+  }, [time, dispatch]);
 
   return (
     <Flex justifyContent="center">

@@ -1,10 +1,8 @@
 import { Button } from "../../styled/Global";
 import { IoReloadOutline } from "react-icons/io5";
-import { useAppDispatch, useAppSelector } from "../../store/hooks";
+import { useAppSelector } from "../../store/hooks";
 
 const ButtonArea = () => {
-
-    const dispatch = useAppDispatch();
 
     const { time } = useAppSelector((state) => state.game);
 
