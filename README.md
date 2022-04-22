@@ -1,4 +1,4 @@
-# Memory Game
+# React Typing Game
 
 # [DEMO](https://react-typing-speed-app.vercel.app/)
 
